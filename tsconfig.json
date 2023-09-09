@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",                                /* Specify what module code is generated. */
     "rootDir": "src",
     "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
