@@ -7,13 +7,13 @@ dotenv.config();
 export default {
   app: {
     port: envvars.get('PORT').required().asPortNumber(),
-    jwtSecret: envvars.get('JWT_TOKEN').required().asString(),
+    // jwtSecret: envvars.get('JWT_TOKEN').required().asString(),
   },
-  db: {
-    host: envvars.get('DB_HOST').required().asString(),
-    port: envvars.get('DB_PORT').required().asPortNumber(),
-    user: envvars.get('DB_USER').required().asString(),
-    pswd: envvars.get('DB_PSWD').required().asString(),
-    schm: envvars.get('DB_SCHM').required().asString(),
-  }
+  // db: {
+  //   host: envvars.get('DB_HOST').required().asString(),
+  //   port: envvars.get('DB_PORT').required().asPortNumber(),
+  //   user: envvars.get('DB_USER').required().asString(),
+  //   pswd: envvars.get('DB_PSWD').required().asString(),
+  //   schm: envvars.get('DB_SCHM').required().asString(),
+  // }
 }
